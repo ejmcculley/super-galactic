@@ -1,5 +1,3 @@
-import { test } from "media-typer";
-import { describe } from "yargs";
 import AgeCalculator from "./../src/age-calculator";
 
 describe("AgeCalculator", () => {
