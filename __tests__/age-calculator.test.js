@@ -13,9 +13,14 @@ describe("AgeCalculator", () => {
 
   describe("galacticeAge", () => {
 
-    test("should return earthAge when age is entered", () => {
+    test("should assign value of age to earthAge", () => {
       const galacticAge = (age) => {
       expect(galacticAge(age)).toEqual(this.earthAge);
+      }
+    })
+    test("should take age value to calculate mercuryAge", () => {
+      const galacticAge = (age) => {
+      expect(galacticAge(age)).toEqual(this.mercuryAge);
       }
     })
   })
