@@ -6,4 +6,6 @@ export default class AgeCalculator {
     this.marsAge = marsAge;
     this.jupiterAge = jupiterAge;
   }
+
+  galacticAge = (age) => earthAge = age;
 }

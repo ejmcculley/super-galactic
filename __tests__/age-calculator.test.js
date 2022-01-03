@@ -1,4 +1,3 @@
-import { test } from "media-typer";
 import AgeCalculator from "./../src/age-calculator";
 
 describe("AgeCalculator", () => {
@@ -11,9 +10,13 @@ describe("AgeCalculator", () => {
     expect(ageCalculator.marsAge).toEqual(17);
     expect(ageCalculator.jupiterAge).toEqual(2);
   });
-  test("should return earthAge when age is entered", () => {
-    const ageCalculator = new AgeCalculator(33, 138, 54, 17, 2);
-    expect(ageCalculator.galacticAge(age)).toEqual(earthAge);
-  })
 
+  describe("galacticeAge", () => {
+
+    test("should return earthAge when age is entered", () => {
+      const galacticAge = (age) => {
+      expect(galacticAge(age)).toEqual(this.earthAge);
+      }
+    })
+  })
 });
