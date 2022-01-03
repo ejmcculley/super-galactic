@@ -11,16 +11,19 @@ describe("AgeCalculator", () => {
     expect(ageCalculator.jupiterAge).toEqual(2);
   });
 
-  describe("galacticeAge", () => {
+  describe("ageOnEarth", () => {
 
     test("should assign value of age to earthAge", () => {
-      const galacticAge = (age) => {
-      expect(galacticAge(age)).toEqual(this.earthAge);
+      const ageOnEarth = (age) => {
+      expect(ageOnEarth(age)).toEqual(this.earthAge);
       }
     })
-    test("should take age value to calculate mercuryAge", () => {
-      const galacticAge = (age) => {
-      expect(galacticAge(age)).toEqual(this.mercuryAge);
+  })
+  describe("ageOnMercury", () => {
+
+    test("should use age to calculate mercuryAge", () => {
+      const ageOnMercury = (age) => {
+      expect(ageOnMercury(age)).toEqual(this.mercuryAge);
       }
     })
   })

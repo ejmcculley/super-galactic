@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1641186413786" clover="3.2.0">
-  <project timestamp="1641186413786" name="All files">
-    <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1" elements="8" coveredelements="7" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
+<coverage generated="1641189934382" clover="3.2.0">
+  <project timestamp="1641189934382" name="All files">
+    <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1" elements="10" coveredelements="8" complexity="0" loc="7" ncloc="7" packages="1" files="1" classes="1"/>
     <file name="age-calculator.js" path="/Users/ejmcculley/Desktop/Epicodus/super-galactic/src/age-calculator.js">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
       <line num="3" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
       <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
