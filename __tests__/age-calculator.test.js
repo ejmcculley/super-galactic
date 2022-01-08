@@ -32,4 +32,11 @@ describe("AgeCalculator", () => {
       expect(ageCalculator.ageOnVenus()).toEqual(53);
     })
   })
+  describe("ageOnMars", () => {
+
+    test("should use age to calculate marsAge", () => {
+      const ageCalculator = new AgeCalculator(33)
+      expect(ageCalculator.ageOnMars()).toEqual(17);
+    })
+  })
 });
