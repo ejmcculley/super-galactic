@@ -10,4 +10,5 @@ export default class AgeCalculator {
   ageOnEarth = () => this.earthAge;
   ageOnMercury = () => this.mercuryAge = Math.floor((parseInt(this.earthAge) * 365.26)/87.97);
   ageOnVenus = () => this.venusAge = Math.floor((parseInt(this.earthAge) * 365.26)/224.7);
+  ageOnMars = () => this.marsAge = Math.floor((parseInt(this.earthAge) * 365.26)/687);
 }
