@@ -52,7 +52,8 @@ describe("AgeCalculator", () => {
       const ageCalculator = new AgeCalculator()
       let age = 30;
       let expectancy = 80;
-      expect(ageCalculator.lifeLeft(30, 80)).toEqual(50);
+      expect(ageCalculator.lifeLeft(30, 80)).toEqual("Years left to live: 50");
+      expect(ageCalculator.lifeLeft(90, 80)).toEqual("Years lived beyond expectancy: 10")
     })
   })
 });
