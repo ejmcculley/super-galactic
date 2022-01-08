@@ -46,12 +46,13 @@ describe("AgeCalculator", () => {
       expect(ageCalculator.ageOnJupiter()).toEqual(2);
     })
   })
-  describe("earthLifeLeft", () => {
+  describe("lifeLeft", () => {
 
-    test("should show years of life left on earth", () => {
-      const ageCalculator = new AgeCalculator(33)
-      let lifeExpectancy = 80;
-      expect(ageCalculator.earthLifeLeft(lifeExpectancy)).toEqual(47);
+    test("should show years of life", () => {
+      const ageCalculator = new AgeCalculator()
+      let age = 30;
+      let expectancy = 80;
+      expect(ageCalculator.lifeLeft(30, 80)).toEqual(50);
     })
   })
 });
