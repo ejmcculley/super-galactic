@@ -2,8 +2,8 @@ import AgeCalculator from "./../src/age-calculator";
 
 describe("AgeCalculator", () => {
 
-  test("should correctly create an object with five ages", () => {
-    const ageCalculator = new AgeCalculator(0, 0, 0, 0,0);
+  test("should correctly create an object with five properties", () => {
+    const ageCalculator = new AgeCalculator(0, 0, 0, 0, 0);
     expect(ageCalculator.earthAge).toEqual(0);
     expect(ageCalculator.mercuryAge).toEqual(0);
     expect(ageCalculator.venusAge).toEqual(0);
@@ -15,7 +15,7 @@ describe("AgeCalculator", () => {
 
     test("should assign value of age to earthAge", () => {
       const ageCalculator = new AgeCalculator(33);
-      expect(ageCalculator.ageOnEarth(0)).toEqual(33);
+      expect(ageCalculator.ageOnEarth()).toEqual(33);
     })
   })
   describe("ageOnMercury", () => {
@@ -44,6 +44,14 @@ describe("AgeCalculator", () => {
     test("should use age to calculate jupiterAge", () => {
       const ageCalculator = new AgeCalculator(33)
       expect(ageCalculator.ageOnJupiter()).toEqual(2);
+    })
+  })
+  describe("earthLifeLeft", () => {
+
+    test("should show years of life left on earth", () => {
+      const ageCalculator = new AgeCalculator(33)
+      let lifeExpectancy = 80;
+      expect(ageCalculator.earthLifeLeft(lifeExpectancy)).toEqual(47);
     })
   })
 });
