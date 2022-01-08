@@ -7,6 +7,6 @@ export default class AgeCalculator {
     this.jupiterAge = jupiterAge;
   }
 
-  ageOnEarth = (age) => earthAge = age;
-  ageOnMercury = (age) => mercuryAge = Math.floor((parseInt(age) * 365.26)/87.97);
+  ageOnEarth = () => this.earthAge;
+  ageOnMercury = () => this.mercuryAge = Math.floor((parseInt(this.earthAge) * 365.26)/87.97);
 }
