@@ -25,4 +25,11 @@ describe("AgeCalculator", () => {
       expect(ageCalculator.ageOnMercury()).toEqual(137);
     })
   })
+  describe("ageOnVenus", () => {
+
+    test("should use age to calculate venusAge", () => {
+      const ageCalculator = new AgeCalculator(33)
+      expect(ageCalculator.ageOnVenus()).toEqual(53);
+    })
+  })
 });
