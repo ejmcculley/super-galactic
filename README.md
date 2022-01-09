@@ -46,7 +46,7 @@ _testing with jest_
 
 ## Known Bugs
 
-* Still troubleshooting prototype methods in Jest
+* Not at the moment!
 
 ## License
 MIT License
