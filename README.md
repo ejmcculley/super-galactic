@@ -15,6 +15,7 @@
 * _Git / Github_
 * _Terminal_
 * _Jest_
+* _Webpack_
 * _npm_
 
 
@@ -33,6 +34,15 @@ _To clone this repository:_
 4. Navigate to the local directory where you want the cloned directory to go.
 5. In your Terminal type "git clone" (without the quotes) then paste the URL you copied above. 
 6. Press 'enter' and the cloned directory should be copied to your current working directory.
+
+_npm installation and setup_
+
+1. After the project is cloned: open project in VS Code and type "npm install" in the project's root directory.
+2. To build the application type "npm run build" in the projects root directory. 
+
+_testing with jest_
+
+1. Jest is included in the project's dependencies, so after the project is cloned, and npm has been installed and built, type "npm test" in the terminal to test the code. 
 
 ## Known Bugs
 
